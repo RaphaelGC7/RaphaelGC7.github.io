@@ -1,1 +1,310 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafael – Data Engineer</title>
+    <meta
+      name="description"
+      content="Rafael is a Data Engineer specializing in reliable data pipelines, analytics platforms, and data infrastructure."
+    />
+    <meta property="og:title" content="Rafael – Data Engineer" />
+    <meta
+      property="og:description"
+      content="Portfolio and landing page for Rafael, a Data Engineer focused on data pipelines, analytics, and scalable infrastructure."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://raphaelgc7.github.io" />
+    <meta property="og:image" content="assets/preview.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#hero" class="logo">Rafael<span>Data</span></a>
+        <nav class="nav">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">Data Engineer</p>
+            <h1>Building reliable data pipelines and analytics platforms.</h1>
+            <p class="subtitle">
+              I design, build, and maintain data infrastructure that powers
+              analytics and decision‑making — from ingestion to transformation
+              and delivery.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn primary">View Projects</a>
+              <a href="#contact" class="btn secondary">Get in touch</a>
+            </div>
+            <div class="hero-meta">
+              <span>ETL &amp; ELT Pipelines</span>
+              <span>Data Warehousing</span>
+              <span>Analytics Engineering</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="data-card">
+              <p class="data-label">Daily Events Processed</p>
+              <p class="data-value">+120M</p>
+            </div>
+            <div class="data-card">
+              <p class="data-label">Pipeline Uptime</p>
+              <p class="data-value">99.9%</p>
+            </div>
+            <div class="data-card">
+              <p class="data-label">Latency Reduction</p>
+              <p class="data-value">-60%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-column">
+          <div>
+            <h2>About</h2>
+            <p>
+              I am a Data Engineer focused on turning raw data into reliable,
+              well‑modeled datasets that teams can trust. I enjoy working across
+              the data stack — from ingestion and orchestration to
+              transformations and serving layers.
+            </p>
+            <p>
+              My work centers on building maintainable pipelines, improving data
+              quality, and creating analytics‑ready models that enable better
+              reporting, experimentation, and product insights.
+            </p>
+          </div>
+          <div class="pill-list">
+            <h3>What I work on</h3>
+            <ul>
+              <li>Batch &amp; streaming data pipelines</li>
+              <li>Data warehousing and modeling</li>
+              <li>ETL / ELT orchestration</li>
+              <li>Analytics &amp; BI enablement</li>
+              <li>Data quality &amp; observability</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2>Skills &amp; Tools</h2>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h3>Languages</h3>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Bash</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h3>Data Engineering</h3>
+              <div class="tags">
+                <span class="tag">ETL / ELT</span>
+                <span class="tag">Data Modeling</span>
+                <span class="tag">Airflow / Orchestration</span>
+                <span class="tag">dbt</span>
+                <span class="tag">Batch &amp; Streaming</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h3>Storage &amp; Warehousing</h3>
+              <div class="tags">
+                <span class="tag">SQL Databases</span>
+                <span class="tag">Data Lakes</span>
+                <span class="tag">Data Warehouses</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h3>Cloud &amp; Infrastructure</h3>
+              <div class="tags">
+                <span class="tag">AWS / GCP / Azure</span>
+                <span class="tag">Docker</span>
+                <span class="tag">CI/CD</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h3>Analytics</h3>
+              <div class="tags">
+                <span class="tag">BI Dashboards</span>
+                <span class="tag">A/B Testing Data</span>
+                <span class="tag">Experimentation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="cards-grid">
+            <article class="card">
+              <h3>Event Pipeline for Product Analytics</h3>
+              <p>
+                Designed and implemented an end‑to‑end pipeline to ingest,
+                transform, and model product events for analytics and
+                experimentation.
+              </p>
+              <ul>
+                <li>Improved data freshness from daily to hourly loads.</li>
+                <li>
+                  Standardized event schemas and created analytics‑ready models.
+                </li>
+                <li>Enabled product and data teams to self‑serve metrics.</li>
+              </ul>
+              <p class="card-meta">
+                Tech: Python, SQL, Orchestration, Data Warehouse
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Data Warehouse Modernization</h3>
+              <p>
+                Migrated legacy reporting SQL into a modern warehouse
+                architecture with clear layers for staging, modeling, and marts.
+              </p>
+              <ul>
+                <li>Reduced query complexity and duplication across reports.</li>
+                <li>Improved reliability of core business metrics.</li>
+                <li>
+                  Introduced version‑controlled transformations and testing.
+                </li>
+              </ul>
+              <p class="card-meta">
+                Tech: Data Warehouse, dbt, CI/CD
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Data Quality &amp; Monitoring</h3>
+              <p>
+                Implemented checks and monitoring for critical pipelines to
+                catch anomalies and schema changes early.
+              </p>
+              <ul>
+                <li>Alerting on late or missing data deliveries.</li>
+                <li>Validation for row counts and key metrics.</li>
+                <li>Improved trust in analytics across stakeholders.</li>
+              </ul>
+              <p class="card-meta">
+                Tech: Python, Observability, Dashboards
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <h2>Experience &amp; Education</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Data Engineer</h3>
+                <p class="timeline-meta">Company · YYYY – Present</p>
+                <ul>
+                  <li>
+                    Built and maintained production data pipelines for analytics
+                    and reporting.
+                  </li>
+                  <li>
+                    Partnered with analysts and stakeholders to design data
+                    models and metrics.
+                  </li>
+                  <li>
+                    Improved reliability and performance of key data workflows.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Education &amp; Certifications</h3>
+                <p class="timeline-meta">
+                  Degree / Certifications · YYYY – YYYY
+                </p>
+                <ul>
+                  <li>Degree in a quantitative or technical field.</li>
+                  <li>
+                    Relevant cloud or data certifications (e.g., AWS, GCP, dbt).
+                  </li>
+                  <li>Ongoing learning in modern data stack tools.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container two-column">
+          <div>
+            <h2>Contact</h2>
+            <p>
+              Interested in working together or talking about data
+              infrastructure? Reach out and I’ll get back to you.
+            </p>
+            <p class="contact-email">
+              <a href="mailto:your.email@example.com">your.email@example.com</a>
+            </p>
+          </div>
+          <div class="pill-list">
+            <h3>Profiles</h3>
+            <ul class="social-links">
+              <li>
+                <a href="https://github.com/RaphaelGC7" target="_blank" rel="noreferrer"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noreferrer">Medium / Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Rafael · Data Engineer</p>
+        <a href="#hero" class="back-to-top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
